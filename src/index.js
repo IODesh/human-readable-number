@@ -13,7 +13,7 @@ module.exports = function toReadable (number) {
     let tens = [' ', ' ', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
     let scales = [' ', 'one hundred', 'two hundred', 'three hundred', 'four hundred', 'five hundred', 'six hundred', 'seven hundred', 'eight hundred', 'nine hundred'];
 	
-    let arr = [' ', ' ', ' '];
+    let arr = [];
 	
 	if (number === 0)
 		{
