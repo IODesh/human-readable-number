@@ -49,7 +49,7 @@ module.exports = function toReadable (number) {
 		 arr[0] = tens[number/10];
 		}
  //console.log(arr);
-return arr.reduce((a, b) => a +' '+b);
+return arr.reduce((a, b) => a +''+b);
 }
 
 //let n = 0;
